@@ -1,105 +1,105 @@
 .list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
 }
 
 .text {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .button {
-    padding: 5px 10px;
-    background-color: #ff4444;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ffc444;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: #cc0000;
+  background-color: #cc0000;
 }
 
 .contactGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .contactCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: #2a2a2a;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
 }
 
 .contactCard:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .contactInfo {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 
 .name {
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000000;
 }
 
 .phone {
-    color: #888;
+  color: #000000;
 }
 
 .button {
-    padding: 8px;
-    background-color: #ff4444;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+  padding: 8px;
+  background-color: #006d5e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .button:hover {
-    background-color: #cc0000;
+  background-color: #11c5ad;
 }
 
 /* Responsive tasarımı da güncelleyelim */
 @media (max-width: 1200px) {
-    .contactGrid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .contactGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-    .contactGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .contactGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 480px) {
-    .contactGrid {
-        grid-template-columns: 1fr;
-    }
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
 }
