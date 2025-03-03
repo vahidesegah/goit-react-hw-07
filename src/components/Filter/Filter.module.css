@@ -1,41 +1,42 @@
 .filterContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid #000000;
+  border-radius: 12px;
 }
 
 .filterWrapper {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background-color: #2a2a2a;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
 }
 
 .label {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: #ffffff;
-    font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #000000;
+  font-weight: 500;
 }
 
 .input {
-    padding: 12px;
-    background-color: #1a1a1a;
-    border: 1px solid #3a3a3a;
-    border-radius: 6px;
-    color: #ffffff;
-    font-size: 1rem;
-    transition: border-color 0.2s ease;
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
 }
 
 .input:focus {
-    outline: none;
-    border-color: #4CAF50;
+  outline: none;
+  border-color: #b6347b;
 }
 
 .input::placeholder {
-    color: #666;
+  color: #666;
 }
