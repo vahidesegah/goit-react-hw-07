@@ -1,0 +1,41 @@
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.filterWrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.input {
+    padding: 12px;
+    background-color: #1a1a1a;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.input::placeholder {
+    color: #666;
+}
